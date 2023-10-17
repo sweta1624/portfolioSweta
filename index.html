@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="cont">
+                 <nav>
+                    <ul id="side">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa fa-times" onclick="closemenu()"></i> 
+                    </ul>  
+                    <i class="fa fa-bars" onclick="openmenu()"></i>               
+                </nav>
+                <div class="text">
+                    <p>Welcome! <i class="fa fa-smile"></i></p>
+                    <h2>I am <br></h2>
+                    <h3>Sweta Soundarya Das <i class="fa fa-smile"></i></h3>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <div class="blogflex">
+                    <img src="images/me.jpeg" height="500px" width="600px">
+                    <div class="blog">
+                        <h1>About Me <i class="fa fa-smile-o"></i></h1>
+                        <p><i>Hello everyone! I am Sweta, currently pursuing CSE with Specialisation in Data Science at VIT Vellore. 
+                            I am an eloquent speaker, I love debating, writing and coding.<br>I have a keen interest in problem solving. 
+                            I dove deep into the world of computer science when i joined college. <br>
+                            I'm fond of finding solutions for complex problems and implementing them via code.
+                            Apart from that, I also write poems, blogs and stories.<br>
+                            In this website, I have showcased my skills, <br>achievements, projects
+                            and other details. <br>
+                            Thank you! <i class="fa fa-heart"></i>
+                        
+                        </i></p>
+
+                    </div>
+                    </div>
+                    </div>
+                <div class="col2">
+                    <br><br><div class="sneak">
+                    <h2><br>Sneak Peek!   <i class="fa fa-eye" style="font-size:24px;color: aqua;"></i> <i class="fa fa-eye" style="font-size:24px;color: aqua;"></i></h2>
+                    <br>
+                    <p>  A Computer Science student at VIT Vellore. 
+                        <ul>
+                             <li>Current CGPA : 9.45</li>
+                             <li>Top 10 in Data Science Branch</li>
+                        </ul>
+                        <br>
+                    <p><em>Front-end development  |   App-development  |  Data-Science</em></p>
+                    </p>
+                         <div class="tab-headings">
+                            <p class="tablink active" onclick="opentab('skills')">Skills</p>
+                            <p class="tablink" onclick="opentab('Edu')">Education</p>
+                            <p class="tablink" onclick="opentab('Achievements')">Achievements</p>
+                            <p class="tablink" onclick="opentab('Experience')">Experience/<br>Training</p>
+                            </div></div>
+                            <div class="tabcontent activet" id="skills" style="font-size:23px;color: aqua;" >
+                                <ul>
+                                    <li><span>HTML | CSS | Java-Script | Node-JS</span><br>Web-Development</li>
+                                    <li><span>Flutter | Core Java</span> <br>App-development</li>
+                                    <li><span>C | Java | Python</span><br>Programming Languages</li>
+                                    <li><span>Python | Numpy | Pandas | Matplotlib | Scikit-learn </span><br>Machine Learning</li>
+                                    <li><span>SQL | NOSQL Databases</span></li>
+                                    <li><span>UI/UX</span></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tabcontent" id="Edu">
+                                <ul><div class="edu">
+                                    <li><span>BJEM School , Bhubaneswar</span>
+                                      <p><br><i class="fa fa-arrow-right"> Became the topper scoring 98% in 10th boards,</i><br><br>
+                                            <i class="fa fa-arrow-right">and 97.6% in 12th boards.<br></i></p>
+                                    </li>
+                                    <li><span>VIT VELLORE'25 </span> <br>Currently in 3rd year, pursuing CSE with<br> Specialisation in Data Science.<br><br>
+                                       <p>   <i class="fa fa-arrow-right">   Secured 7th rank in 1st year.</i><br><br>
+                                          <i class="fa fa-arrow-right">  Bagged 9th rank in 2nd year.</i></p>
+                                        </div>
+                                        <br></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tabcontent" id="Achievements">
+                                <ul>
+                                    <li><span>Participated in Smart India Hackathon</span><br>
+                                        Designed a website to help students with their academic<br> and extracurricular activities.</li>
+                                    <li><span>Best Research Paper</span> <br>Presented my paper on VOICE ASSISTANTS-Future of<br> Interaction at SVCET College,AP</li>
+                                    <li><span>'Youth Prime Minister Of India 2018'</span><br>Declared as the Best Orator.</li>
+                                    <li><span>Project was applauded at National level,<br>National Children's Science Congress</span><br>Made a project that could transform leftover food into<br>  cooking gas.</li>
+                                    <li><span>Best Elocutionist </span><br>award by L.I.C India</li>
+                                    <li><span>Conducted BJEM Model United Nation</span><br>Been a part of the Organizing Committee of many MUNs,<br>  and have also participated as a Delegate.</li>
+                                </ul>
+                            </div>
+                            <div class="tabcontent" id="Experience">
+                                <ul>
+                                    <li><span>PPD ,part of Thermofisher Scientific</span><br>- Learned about various analytical tools and<br> it's implementation. Supported the BSA team in gathering requirements, documentation and Client presentations.</li>
+                                    <li><span>Regional Institute of Computer <br>Education , Bhubaneswar</span> <br>
+                                        - At this Govt. institute pursued and appeared exams.</li>
+                                </ul>
+                            </div>
+                    
+                </div>     
+                </div>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub">My Works <i class="fa fa-laptop"></i></h1>
+                <div class=projlist>
+                    <div>
+                        <i class="fa fa-shopping-bag" style="font-size:48px;"></i>
+                        <br><br>
+                        <a href="https://sweta1624.github.io/Shopping-website/">  <h2>Shopping Website</h2></a>
+                        <p>An E-Commerce Shopping website made using HTML,CSS,Java-Script</p>
+                        <a href="https://sweta1624.github.io/Shopping-website/">Explore</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-music" style="color: #e1f3f4;font-size:48px;"></i>
+                        <br><br>
+                        <a href="https://github.com/sweta1624/sql_project">   <h2>Music Playlist Analysis</h2></a>
+                        <p>This is a simple SQL project to analyse the data of a music playlist database</p>
+                        <a href="https://github.com/sweta1624/sql_project">Explore</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-code" style="font-size:48px;"></i>
+                        <br><br>
+                       <a href="#"> <h2>Operating System</h2></a>
+                        <p>Some important concepts implemented using C/C++</p>
+                        <a href="#">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="left">
+                        <h1 class="sub">Contact Me</h1>
+                        <p><i class="fa fa-envelope"></i>swetaa24das@gmail.com</p>
+                        <p><i class="fa fa-phone"></i>0000000000</p>
+                        <div class="socialmediaicons">
+                            <a href="https://www.linkedin.com/in/sweta-soundarya-das-8a2b66231"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/sweta.soundarya/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://swetaa24.blogspot.com/"><i class="fa fa-pencil"></i></a>
+                            <a href="https://github.com/sweta1624"><i class="fa fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <form action="" id="contact">
+                            <div class="sent">Your response is successfully sent</div>
+                            <input type="text" id="name" placeholder="Enter Your Name" required>
+                            <input type="email" id="email" placeholder="Enter Your Email" required>
+                            <textarea id="msg" rows="5" placeholder="Message"></textarea>
+                            <button type="submit" class="buttons">Submit</button>
+                            <button type="button" class="buttons" onclick="myFunction()">Reset</button>
+                            
+                            <script>
+                                function myFunction() {
+  document.getElementById("contact").value =" ";
+}
+                                </script>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <p>Learning is a never ending process :)</p>
+            </div>
+        </div>
+       
+        <script>
+            var tablinks=document.getElementsByClassName("tablink"); 
+            var tabconts=document.getElementsByClassName("tabcontent"); 
+            function opentab(tabname)
+            {
+                for(tlink of tablinks)
+                {
+                    tlink.classList.remove("active");
+
+                }
+                for(tcont of tabconts)
+                {
+                    tcont.classList.remove("activet");
+                }
+                event.currentTarget.classList.add("active");
+                document.getElementById(tabname).classList.add("activet");
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("side");
+            function openmenu()
+            {
+                sidemenu.style.left="0";
+            }
+            function closemenu()
+            {
+                sidemenu.style.left="-200px";
+            }
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="./mail.js"></script>  
+    </body>
+ </html> 
